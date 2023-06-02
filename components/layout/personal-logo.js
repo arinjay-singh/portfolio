@@ -5,8 +5,8 @@ function PersonalLogo() {
     <Image
       src="/images/personal-logo/arinjay-singh-logos-black.png"
       alt="Arinjay Singh Logo"
-      width={100}
-      height={100}
+      width={300}
+      height={300}
     />
   );
 }
