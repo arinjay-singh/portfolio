@@ -31,6 +31,10 @@ function NavigationBar() {
           <li className={classes.logo}>
             <LinkedinLogo />
           </li>
+          <li className={classes.vertical}></li>
+          <li>
+            <Link href="/resume" className={classes.button}>Resume</Link>
+          </li>
         </ul>
       </nav>
     </header>
