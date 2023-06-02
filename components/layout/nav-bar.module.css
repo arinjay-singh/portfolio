@@ -23,7 +23,7 @@
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: gray;
+  color: #00A19B;
 }
 
 @media (min-width: 768px) {
@@ -48,13 +48,16 @@
 .button {
   display: inline-block;
   padding: 8px 16px;
-  background-color: black;
+  background-color: #00A19B;
   color: white;
   border-radius: 6px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  border: 2px solid #00A19B;
 }
 
 .button:hover {
-  opacity: 0.5;
+  color : #00A19B;
+  background-color: white;
+  border-color: #00A19B;
 }
