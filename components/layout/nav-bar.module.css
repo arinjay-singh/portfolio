@@ -37,6 +37,10 @@
 }
 
 .vertical {
-  border-left: 1px solid #D3D3D3;
+  border-left: 1px solid #d3d3d3;
   height: 2rem;
+}
+
+.logo:hover {
+  opacity: 0.5;
 }

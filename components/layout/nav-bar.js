@@ -25,10 +25,10 @@ function NavigationBar() {
             <Link href="/projects">Projects</Link>
           </li>
           <li className={classes.vertical}></li>
-          <li>
+          <li className={classes.logo}>
             <GithubLogo />
           </li>
-          <li>
+          <li className={classes.logo}>
             <LinkedinLogo />
           </li>
         </ul>
