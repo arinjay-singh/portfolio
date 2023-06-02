@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10%;
+  padding: 0 5%;
 }
 
 .header ul {
@@ -20,11 +20,6 @@
   margin: 0 1rem;
 }
 
-.header a {
-  color: var(--color-grey-100);
-  font-size: 1rem;
-}
-
 .header a:hover,
 .header a:active,
 .header a.active {
@@ -37,6 +32,11 @@
   }
 
   .header a {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
+}
+
+.vertical {
+  border-left: 1px solid black;
+  height: 2rem;
 }

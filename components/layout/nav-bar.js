@@ -22,6 +22,7 @@ function NavigationBar() {
           <li>
             <Link href="/projects">Projects</Link>
           </li>
+          <li className={classes.vertical}></li>
         </ul>
       </nav>
     </header>
