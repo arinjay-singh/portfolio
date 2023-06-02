@@ -1,6 +1,8 @@
 import Link from "next/link";
 import PersonalLogo from "./personal-logo";
 import classes from "./nav-bar.module.css";
+import GithubLogo from "./github-logo";
+import LinkedinLogo from "./linkedin-logo";
 
 function NavigationBar() {
   return (
@@ -23,6 +25,12 @@ function NavigationBar() {
             <Link href="/projects">Projects</Link>
           </li>
           <li className={classes.vertical}></li>
+          <li>
+            <GithubLogo />
+          </li>
+          <li>
+            <LinkedinLogo />
+          </li>
         </ul>
       </nav>
     </header>
