@@ -23,7 +23,7 @@
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: #00a19b;
+  color: var(--petronas-green);
 }
 
 @media (min-width: 768px) {
@@ -42,23 +42,22 @@
 }
 
 .logo:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .button {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #00a19b;
+  background-color: var(--petronas-green);
   color: white;
   border-radius: 6px;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  border: 2px solid #00a19b;
+  border: 2px solid var(--petronas-green);
 }
 
 .button:hover {
-  padding: 9px 16px;
-  color: #00a19b;
+  color: var(--petronas-green);
   background-color: white;
-  border-color: #00a19b;
+  border-color: var(--petronas-green);
 }
