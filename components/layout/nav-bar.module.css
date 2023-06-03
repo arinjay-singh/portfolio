@@ -23,7 +23,7 @@
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: #00A19B;
+  color: #00a19b;
 }
 
 @media (min-width: 768px) {
@@ -42,22 +42,23 @@
 }
 
 .logo:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .button {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #00A19B;
+  background-color: #00a19b;
   color: white;
   border-radius: 6px;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  border: 2px solid #00A19B;
+  border: 2px solid #00a19b;
 }
 
 .button:hover {
-  color : #00A19B;
+  padding: 9px 16px;
+  color: #00a19b;
   background-color: white;
-  border-color: #00A19B;
+  border-color: #00a19b;
 }
