@@ -3,10 +3,10 @@ import Image from "next/image";
 function PersonalLogo() {
   return (
     <Image
-      src="/images/personal-logo/arinjay-singh-logos-black.png"
+      src="/images/personal-logo/arinjay-singh-logo-2.svg"
       alt="Arinjay Singh Logo"
-      width={300}
-      height={300}
+      width={190}
+      height={76}
     />
   );
 }
