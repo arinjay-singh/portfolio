@@ -63,3 +63,14 @@
   background-color: white;
   border-color: var(--petronas-green);
 }
+
+.svg {
+  width: 13px;
+  height: 13px;
+}
+
+.navitem{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
