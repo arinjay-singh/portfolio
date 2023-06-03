@@ -21,7 +21,7 @@ function NavigationBar() {
             </Link>
             <Dropdown
               navitem="about"
-              items={["me", "this website"]}
+              items={["Me", "This Site", "Contact"]}
               className={classes.dropdown}
             />
           </li>
@@ -32,7 +32,7 @@ function NavigationBar() {
             </Link>
             <Dropdown
               navitem="skills"
-              items={["languages", "frameworks", "tools"]}
+              items={["Programming Languages", "Web Development", "Data Science Tools", "Other"]}
               className={classes.dropdown}
             />
           </li>
@@ -43,7 +43,7 @@ function NavigationBar() {
             </Link>
             <Dropdown
               navitem="experience"
-              items={["work", "projects"]}
+              items={["Internships", "Research", "Coursework"]}
               className={classes.dropdown}
             />
           </li>
@@ -54,7 +54,7 @@ function NavigationBar() {
             </Link>
             <Dropdown
               navitem="projects"
-              items={["personal", "school"]}
+              items={["Personal", "School"]}
               className={classes.dropdown}
             />
           </li>
