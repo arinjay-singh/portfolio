@@ -67,7 +67,7 @@ function NavigationBar() {
           </li>
           <li className={classes.vertical}></li>
           <li>
-            <Link href="/resume" className={classes.button}>
+            <Link href="/resume.html" className={classes.button}>
               Resume
             </Link>
           </li>
