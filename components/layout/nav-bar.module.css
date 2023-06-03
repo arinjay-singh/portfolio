@@ -69,8 +69,8 @@
   height: 13px;
 }
 
-.navitem{
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
+.navitem {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
