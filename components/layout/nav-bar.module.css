@@ -24,7 +24,7 @@
 .header .drop{
   margin: 0 0.8rem;
   height: 1.7rem;
-  
+  padding: 0.1rem 0rem;
 }
 
 .header a:hover,
@@ -90,7 +90,7 @@
   background-color: white;
   border-radius: 6px;
   padding: 1rem;
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   z-index: 1;
   gap: 0.5rem;
 }
