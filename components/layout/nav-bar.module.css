@@ -27,9 +27,15 @@
   padding: 0.1rem 0rem;
 }
 
-.header a:hover,
-.header a:active,
-.header a.active {
+.header .navitem:hover,
+.header .navitem:active,
+.header .navitem.active {
+  color: var(--petronas-green);
+}
+
+.header .drop a:hover,
+.header .drop a:active,
+.header .drop a.active {
   color: var(--petronas-green);
 }
 
@@ -66,6 +72,7 @@
 }
 
 .button:hover {
+  color: var(--petronas-green);
   background-color: white;
   border-color: var(--petronas-green);
 }
