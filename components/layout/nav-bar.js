@@ -57,9 +57,10 @@ function NavigationBar() {
       <nav>
         <ul>
           <li
+            className={classes.drop}
+            key="about"
             onMouseEnter={aboutMouseEnterHandler}
             onMouseLeave={aboutMouseLeaveHandler}
-            className={classes.drop}
           >
             <Link href="/about" className={classes.navitem}>
               About
@@ -73,6 +74,7 @@ function NavigationBar() {
           </li>
           <li
             className={classes.drop}
+            key="skills"
             onMouseEnter={skillsMouseEnterHandler}
             onMouseLeave={skillsMouseLeaveHandler}
           >
@@ -93,6 +95,7 @@ function NavigationBar() {
           </li>
           <li
             className={classes.drop}
+            key="experience"
             onMouseEnter={experienceMouseEnterHandler}
             onMouseLeave={experienceMouseLeaveHandler}
           >
@@ -108,6 +111,7 @@ function NavigationBar() {
           </li>
           <li
             className={classes.drop}
+            key="projects"
             onMouseEnter={projectsMouseEnterHandler}
             onMouseLeave={projectsMouseLeaveHandler}
           >
@@ -121,15 +125,15 @@ function NavigationBar() {
               className={classes.dropdown}
             />
           </li>
-          <li className={classes.vertical}></li>
-          <li className={classes.logo}>
+          <li className={classes.vertical} key="vertical-bar1"></li>
+          <li className={classes.logo} key="github">
             <GithubLogo />
           </li>
-          <li className={classes.logo}>
+          <li className={classes.logo} key="linkedin">
             <LinkedinLogo />
           </li>
-          <li className={classes.vertical}></li>
-          <li>
+          <li className={classes.vertical} key="vertical-bar2"></li>
+          <li key="resume">
             <Link href="/resume.html" className={classes.button}>
               Resume
             </Link>

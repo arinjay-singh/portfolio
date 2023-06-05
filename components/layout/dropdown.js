@@ -7,7 +7,7 @@ function Dropdown(props) {
   return (
     <div className={classes.dropdown}>
       {items.map((item) => (
-        <Link href={`/${navitem}/${item}`}>
+        <Link href={`/${navitem}/${item}`} key={item}>
           {item}
         </Link>
       ))}
