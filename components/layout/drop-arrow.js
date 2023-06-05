@@ -1,22 +1,21 @@
-import classes from "./nav-bar.module.css"
+import { ChevronDownIcon } from "@heroicons/react/24/solid";
+import classes from "./nav-bar.module.css";
 
 function DropArrrow() {
   return (
     <svg
-      className={classes.svg}
-      class="w-4 h-4 ml-2"
-      aria-hidden="true"
-      fill="none"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={3}
+      stroke="currentColor"
+      className={classes.svg}
     >
       <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M19 9l-7 7-7-7"
-      ></path>
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+      />
     </svg>
   );
 }

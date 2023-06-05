@@ -8,18 +8,45 @@ import Dropdown from "./dropdown";
 import UpArrow from "./up-arrow";
 import { useState } from "react";
 
-
 function NavigationBar() {
-  const [isHovered, setIsHovered] = useState(false);
+  const [isAboutHovered, setIsAboutHovered] = useState(false);
 
-  function mouseEnterHandler() {
-    setIsHovered(true);
-    console.log("hovered");
+  function aboutMouseEnterHandler() {
+    setIsAboutHovered(true);
   }
 
-  function mouseLeaveHandler() {
-    setIsHovered(false);
-    console.log("not hovered");
+  function aboutMouseLeaveHandler() {
+    setIsAboutHovered(false);
+  }
+
+  const [isSkillsHovered, setIsSkillsHovered] = useState(false);
+
+  function skillsMouseEnterHandler() {
+    setIsSkillsHovered(true);
+  }
+
+  function skillsMouseLeaveHandler() {
+    setIsSkillsHovered(false);
+  }
+
+  const [isExperienceHovered, setIsExperienceHovered] = useState(false);
+
+  function experienceMouseEnterHandler() {
+    setIsExperienceHovered(true);
+  }
+
+  function experienceMouseLeaveHandler() {
+    setIsExperienceHovered(false);
+  }
+
+  const [isProjectsHovered, setIsProjectsHovered] = useState(false);
+
+  function projectsMouseEnterHandler() {
+    setIsProjectsHovered(true);
+  }
+
+  function projectsMouseLeaveHandler() {
+    setIsProjectsHovered(false);
   }
 
   return (
@@ -30,13 +57,13 @@ function NavigationBar() {
       <nav>
         <ul>
           <li
-            onMouseEnter={mouseEnterHandler}
-            onMouseLeave={mouseLeaveHandler}
+            onMouseEnter={aboutMouseEnterHandler}
+            onMouseLeave={aboutMouseLeaveHandler}
             className={classes.drop}
           >
             <Link href="/about" className={classes.navitem}>
               About
-              {isHovered ? <UpArrow className={classes.svg} /> : <DropArrrow className={classes.svg} />}
+              {isAboutHovered ? <UpArrow /> : <DropArrrow />}
             </Link>
             <Dropdown
               navitem="about"
@@ -44,10 +71,14 @@ function NavigationBar() {
               className={classes.dropdown}
             />
           </li>
-          <li className={classes.drop}>
+          <li
+            className={classes.drop}
+            onMouseEnter={skillsMouseEnterHandler}
+            onMouseLeave={skillsMouseLeaveHandler}
+          >
             <Link href="/skills" className={classes.navitem}>
               Skills
-              <DropArrrow />
+              {isSkillsHovered ? <UpArrow /> : <DropArrrow />}
             </Link>
             <Dropdown
               navitem="skills"
@@ -60,10 +91,14 @@ function NavigationBar() {
               className={classes.dropdown}
             />
           </li>
-          <li className={classes.drop}>
+          <li
+            className={classes.drop}
+            onMouseEnter={experienceMouseEnterHandler}
+            onMouseLeave={experienceMouseLeaveHandler}
+          >
             <Link href="/experience" className={classes.navitem}>
               Experience
-              <DropArrrow />
+              {isExperienceHovered ? <UpArrow /> : <DropArrrow />}
             </Link>
             <Dropdown
               navitem="experience"
@@ -71,10 +106,14 @@ function NavigationBar() {
               className={classes.dropdown}
             />
           </li>
-          <li className={classes.drop}>
+          <li
+            className={classes.drop}
+            onMouseEnter={projectsMouseEnterHandler}
+            onMouseLeave={projectsMouseLeaveHandler}
+          >
             <Link href="/projects" className={classes.navitem}>
               Projects
-              <DropArrrow />
+              {isProjectsHovered ? <UpArrow /> : <DropArrrow />}
             </Link>
             <Dropdown
               navitem="projects"
