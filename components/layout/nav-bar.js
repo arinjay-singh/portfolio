@@ -5,8 +5,23 @@ import GithubLogo from "./github-logo";
 import LinkedinLogo from "./linkedin-logo";
 import DropArrrow from "./drop-arrow";
 import Dropdown from "./dropdown";
+import UpArrow from "./up-arrow";
+import { useState } from "react";
+
 
 function NavigationBar() {
+  const [isHovered, setIsHovered] = useState(false);
+
+  function mouseEnterHandler() {
+    setIsHovered(true);
+    console.log("hovered");
+  }
+
+  function mouseLeaveHandler() {
+    setIsHovered(false);
+    console.log("not hovered");
+  }
+
   return (
     <header className={classes.header}>
       <Link href="/">
@@ -14,10 +29,14 @@ function NavigationBar() {
       </Link>
       <nav>
         <ul>
-          <li className={classes.drop}>
+          <li
+            onMouseEnter={mouseEnterHandler}
+            onMouseLeave={mouseLeaveHandler}
+            className={classes.drop}
+          >
             <Link href="/about" className={classes.navitem}>
               About
-              <DropArrrow className={classes.svg}/>
+              {isHovered ? <UpArrow className={classes.svg} /> : <DropArrrow className={classes.svg} />}
             </Link>
             <Dropdown
               navitem="about"
@@ -32,7 +51,12 @@ function NavigationBar() {
             </Link>
             <Dropdown
               navitem="skills"
-              items={["Programming Languages", "Web Development", "Data Science Tools", "Other"]}
+              items={[
+                "Programming Languages",
+                "Web Development",
+                "Data Science Tools",
+                "Other",
+              ]}
               className={classes.dropdown}
             />
           </li>
