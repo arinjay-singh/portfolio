@@ -105,7 +105,7 @@ function NavigationBar() {
             </Link>
             <Dropdown
               navitem="experience"
-              items={["Internships", "Research", "Coursework"]}
+              items={["Education", "Internships", "Research"]}
               className={classes.dropdown}
             />
           </li>
