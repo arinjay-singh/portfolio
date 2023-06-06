@@ -1,6 +1,11 @@
 .home {
   font-family: "Sans-Serif Workhorse";
-  background-image: linear-gradient(white 12%, rgb(0, 161, 155, 0) 10%, rgb(0, 161, 155, 0.3) 40%, rgb(0, 161, 155, 0));
+  background-image: linear-gradient(
+    white 12%,
+    rgb(0, 161, 155, 0) 10%,
+    rgb(0, 161, 155, 0.25) 40%,
+    rgb(0, 161, 155, 0)
+  );
 }
 
 .title {
