@@ -6,7 +6,7 @@ import LearnMore from "../components/home-page/learn-more";
 
 export default function Home() {
   return (
-    <div>
+    <div className={classes.home}>
       <div className={classes.hero}>
         <div className={classes.title}>
           <div className={classes.titletext}>

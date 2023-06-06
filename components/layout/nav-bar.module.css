@@ -73,6 +73,7 @@
   color: white;
   border-radius: 8px;
   text-decoration: none;
+  font-weight: 300;
   transition: background-color 0.3s ease;
   border: 2px solid var(--petronas-green);
 }
@@ -100,7 +101,7 @@
   flex-direction: column;
   position: absolute;
   background-color: white;
-  font-weight: 549;
+  font-weight: 550;
   border-radius: 8px;
   padding: 1rem;
   margin-top: 0.4rem;
