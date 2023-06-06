@@ -7,7 +7,7 @@ function Dropdown(props) {
   return (
     <div className={classes.dropdown}>
       {items.map((item) => (
-        <Link href={`/${navitem}/${item.toLowerCase()}`} key={item}>
+        <Link href={`/${navitem}/${item.toLowerCase().replace(/ /g, "-")}`} key={item}>
           {item}
         </Link>
       ))}
