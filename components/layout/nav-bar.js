@@ -6,10 +6,13 @@ import LinkedinLogo from "./linkedin-logo";
 import DropArrrow from "./drop-arrow";
 import Dropdown from "./dropdown";
 import UpArrow from "./up-arrow";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function NavigationBar() {
   const [isAboutHovered, setIsAboutHovered] = useState(false);
+  const [isSkillsHovered, setIsSkillsHovered] = useState(false);
+  const [isExperienceHovered, setIsExperienceHovered] = useState(false);
+  const [isProjectsHovered, setIsProjectsHovered] = useState(false);
 
   function aboutMouseEnterHandler() {
     setIsAboutHovered(true);
@@ -19,8 +22,6 @@ function NavigationBar() {
     setIsAboutHovered(false);
   }
 
-  const [isSkillsHovered, setIsSkillsHovered] = useState(false);
-
   function skillsMouseEnterHandler() {
     setIsSkillsHovered(true);
   }
@@ -29,8 +30,6 @@ function NavigationBar() {
     setIsSkillsHovered(false);
   }
 
-  const [isExperienceHovered, setIsExperienceHovered] = useState(false);
-
   function experienceMouseEnterHandler() {
     setIsExperienceHovered(true);
   }
@@ -38,8 +37,6 @@ function NavigationBar() {
   function experienceMouseLeaveHandler() {
     setIsExperienceHovered(false);
   }
-
-  const [isProjectsHovered, setIsProjectsHovered] = useState(false);
 
   function projectsMouseEnterHandler() {
     setIsProjectsHovered(true);

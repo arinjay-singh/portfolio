@@ -1,6 +1,6 @@
 .title {
   display: block;
-  padding: 7rem 18rem;
+  padding: 7rem 20rem;
   text-align: left;
   font-family: 'Sans-Serif Workhorse';
 }
@@ -15,5 +15,5 @@
 .title h1 {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 5rem;
+  font-size: 5.5rem;
 }

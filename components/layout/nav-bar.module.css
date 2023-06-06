@@ -7,6 +7,11 @@
   align-items: top;
   padding: 1% 5%;
   font-family: 'Sans-Serif Workhorse';
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }
 
 .header ul {

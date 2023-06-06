@@ -4,7 +4,7 @@ import NavigationBar from "./nav-bar";
 function Layout(props) {
   return (
     <Fragment>
-      <NavigationBar />
+      <NavigationBar/>
       <main>{props.children}</main>
     </Fragment>
   );
