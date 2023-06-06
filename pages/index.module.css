@@ -1,11 +1,10 @@
 .title {
   display: inline-block;
-  margin: 0 1rem;
 }
 
 .titletext {
   display: block;
-  padding: 15rem 6rem;
+  padding: 15rem 6rem 4rem 6rem;
   text-align: left;
   font-family: "Sans-Serif Workhorse";
 }
@@ -21,4 +20,10 @@
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 5.5rem;
+}
+
+.learnmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

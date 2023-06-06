@@ -1,0 +1,16 @@
+.button {
+  align-items: center;
+  padding: 8px 16px;
+  background-color: var(--petronas-green);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: 2px solid var(--petronas-green);
+}
+
+.button:hover {
+  color: var(--petronas-green);
+  background-color: white;
+  border-color: var(--petronas-green);
+}
