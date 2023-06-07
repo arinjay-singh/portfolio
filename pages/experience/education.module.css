@@ -5,25 +5,18 @@
 
 .title {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   height: 7rem;
-  padding: 0 4rem;
+  padding: 0 0 0 7rem;
   margin: 0 0 2rem 0;
-  background-image: linear-gradient(
-    rgb(0, 161, 155, 0) 10%,
-    rgb(0, 161, 155, 0.1) 30%,
-    rgb(0, 161, 155, 0.15) 50%,
-    rgb(0, 161, 155, 0.1) 70%,
-    rgb(0, 161, 155, 0) 90%
-  );
 }
 
 .title h1 {
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
-  font-size: 3rem;
-  font-weight: 500;
+  font-size: 3.5rem;
+  font-weight: 600;
 }
 
 .divider {
