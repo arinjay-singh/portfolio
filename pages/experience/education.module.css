@@ -33,11 +33,7 @@
 .northeastern .text {
   display: block;
   text-align: left;
-  margin: 0 0 0 5rem;
-}
-
-.northeastern .img {
-  margin: 0 0 0 30rem;
+  margin: 0 5rem 0 0;
 }
 
 .athenian {
