@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={classes.home}>
       <div className={classes.hero}>
-        <div className={classes.title}>
+        <div className={classes.title1}>
           <div className={classes.titletext}>
             <h3> Hi, my name is </h3>
             <h1> Arinjay Singh. </h1>
@@ -20,8 +20,10 @@ export default function Home() {
             </h3>
           </div>
         </div>
-        <div className={classes.title}>
-          <Memoji />
+        <div className={classes.title2}>
+          <div className={classes.memoji}>
+            <Memoji  />
+          </div>
         </div>
       </div>
       <div className={classes.learnmore}>

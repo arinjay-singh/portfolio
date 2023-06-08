@@ -8,14 +8,23 @@
   );
 }
 
-.title {
-  padding: 2rem 0 1rem 0;
-  display: inline-block;
+.hero {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.title1 {
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.title2 .memoji {
+  padding: 13rem 3rem 0 0;
 }
 
 .titletext {
   display: block;
-  padding: 15rem 6rem 4rem 8rem;
+  padding: 15rem 4rem 3rem 4rem;
   text-align: left;
 }
 
