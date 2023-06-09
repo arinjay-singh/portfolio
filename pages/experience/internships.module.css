@@ -1,0 +1,13 @@
+.page {
+  padding: 8rem 0rem;
+  font-family: "Sans-Serif Workhorse";
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 7rem;
+  padding: 0 0 0 7rem;
+  margin: 0 0 2rem 0;
+}
