@@ -15,14 +15,14 @@ export default function Home() {
             <h3>
               {" "}
               I'm a Computer Science and Economics student at Northeastern
-              University <br /> pursuing my fascination with software and web
-              development as well as the ethics <br /> behind modern technology.{" "}
+              University <br /> pursuing my fascination with software design and
+              the ethics behind <br /> modern technology.{" "}
             </h3>
           </div>
         </div>
         <div className={classes.title2}>
           <div className={classes.memoji}>
-            <Memoji  />
+            <Memoji />
           </div>
         </div>
       </div>

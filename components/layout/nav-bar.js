@@ -65,7 +65,7 @@ function NavigationBar() {
             </Link>
             <Dropdown
               navitem="about"
-              items={["Me", "This Site", "Contact"]}
+              items={["Me", "This Site"]}
               className={classes.dropdown}
             />
           </li>
@@ -83,9 +83,8 @@ function NavigationBar() {
               navitem="skills"
               items={[
                 "Programming Languages",
-                "Web Development",
+                "Web Development Tools",
                 "Data Science Tools",
-                "Other",
               ]}
               className={classes.dropdown}
             />

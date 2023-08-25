@@ -54,6 +54,23 @@ function Education() {
           <p>
             <strong>2018 - 2022</strong>
           </p>
+          <p>
+            I am a recent high school graduate of The Athenian School, a private
+            high school in Danville, California. I graduated with an unweighted
+            GPA of 3.93 and a weighted GPA of 4.42, earning academic honors as a
+            consistent member of the Dean's List throughout my four years at
+            Athenian. It was here that my fascination with computer science
+            first began here in classes such as <em>AP Computer Science</em>,
+            {""} <em>Data Structures</em> and <em>Algorithms</em>.
+          </p>
+          <p>
+            Outside of the classroom I was a starting pitcher and middle
+            infielder on the varsity baseball team for all four years, making
+            several runs to the North Coast Section playoffs. I was participated
+            in the First Robotics Competition (FRC) for two years, where I was a
+            member of the programming team gaining hands-on technical
+            experience.
+          </p>
         </div>
       </div>
     </div>

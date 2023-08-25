@@ -1,0 +1,36 @@
+.page {
+  padding: 8rem 0rem;
+  font-family: "Sans-Serif Workhorse";
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 7rem;
+  padding: 0 0 0 5rem;
+  margin: 0 0 2rem 0;
+  color: var(--petronas-green);
+}
+
+.title h1 {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.gridcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  height: 80vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 80%;
+}

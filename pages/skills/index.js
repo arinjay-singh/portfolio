@@ -1,5 +1,7 @@
+import Skill from "../../components/skills/skill";
+
 function Skills() {
-  return <div>Skills</div>;
+  return <Skill title="A" description="hi" />;
 }
 
 export default Skills;
