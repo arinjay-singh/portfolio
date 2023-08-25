@@ -1,4 +1,4 @@
-import classes from './projects.module.css';
+import classes from './school.module.css';
 
 function SchoolProjects() {
     return <div className={classes.page}>
