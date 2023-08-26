@@ -46,6 +46,7 @@ function ProgrammingLanguages() {
       <div className={classes.title}>
         <h1>Programming Languages</h1>
       </div>
+      <hr className={classes.divider} />
       <div className={classes.gridcontainer}>
         <div className={classes.grid}>
           {skillsData.map((skill, index) => (

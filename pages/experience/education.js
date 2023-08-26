@@ -10,6 +10,7 @@ function Education() {
       <div className={classes.title}>
         <h1>Education</h1>
       </div>
+      <hr className={classes.divider} />
       <div className={classes.northeastern}>
         <div className={classes.text}>
           <NortheasternLogo />

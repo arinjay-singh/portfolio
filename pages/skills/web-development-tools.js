@@ -42,6 +42,7 @@ function WebDevelopmentTools() {
       <div className={classes.title}>
         <h1>Web Development Tools</h1>
       </div>
+      <hr className={classes.divider} />
       <div className={classes.gridcontainer}>
         <div className={classes.grid}>
           {skillsData.map((skill, index) => (

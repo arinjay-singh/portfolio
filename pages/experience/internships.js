@@ -8,6 +8,7 @@ function Internships() {
       <div className={classes.title}>
         <h1>Internships</h1>
       </div>
+      <hr className={classes.divider} />
       <div className={classes.neocortex}>
         <div className={classes.text}>
           <NeocortexLogo />

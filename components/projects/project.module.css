@@ -1,0 +1,24 @@
+.project {
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: var(--petronas-green);
+  text-align: center;
+}
+
+.description {
+  font-size: 1rem;
+  color: black;
+}
+
+.image {
+  width: auto;
+  height: 60%;
+}
