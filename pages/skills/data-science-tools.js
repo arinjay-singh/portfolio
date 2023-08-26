@@ -5,19 +5,35 @@ function DataScienceTools() {
   const skillsData = [
     {
       title: "Jupyter Notebook (Python)",
-      description: "Building awesome websites!",
+      description: [
+        "Intermediate proficiency",
+        "Utilized to organize and present data science projects in a clear and concise manner for both technical and non-technical audiences",
+        "Experience from coursework such as Programming with Data and internship as a Data Analyst at Neocortex",
+      ],
     },
     {
       title: "Tableau",
-      description: "Creating stunning visuals.",
+      description: [
+        "Intermediate proficiency",
+        "Utilized to conduct Exploratory Data Analysis (EDA) on large datasets and create data visualizations",
+        "Experience from Data Analyst Internship at Neocortex", 
+      ],
     },
     {
       title: "Stata",
-      description: "Analyzing data to uncover insights.",
+      description: [
+        "Intermediate proficiency",
+        "Utilized to perform statistical analysis in an Econometrics context both in academic research and coursework",
+        "Experience from coursework such as Econometrics",
+      ],
     },
     {
       title: "R",
-      description: "Crafting engaging and informative content.",
+      description: [
+        "Beginner proficiency",
+        "Utilized to perform statistical analysis in an Econometrics context both in academic research and coursework",
+        "Experience from academic econometrics research",
+      ],
     },
   ];
 

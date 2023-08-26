@@ -5,19 +5,35 @@ function WebDevelopmentTools() {
   const skillsData = [
     {
       title: "JavaScript/HTML/CSS",
-      description: "Building awesome websites!",
+      description: [
+        "Intermediate proficiency",
+        "Applied in personal web development projects",
+        "Utilized in developing this website through Next.js",
+        "Learned through online course providers such as Udemy and Coursera",
+      ],
     },
     {
       title: "React.js/Next.js",
-      description: "Creating stunning visuals.",
+      description: [
+        "Intermediate proficiency",
+        "Applied in personal web development projects",
+        "Utilized in developing this website through Next.js",
+        "Learned through online course providers such as Udemy and Coursera",
+      ],
     },
     {
       title: "Node.js/Express.js",
-      description: "Analyzing data to uncover insights.",
+      description: [
+        "Beginner proficiency",
+        "Utilized in projects through online course providers such as Udemy and Coursera",
+      ],
     },
     {
       title: "MongoDB",
-      description: "Crafting engaging and informative content.",
+      description: [
+        "Beginner proficiency",
+        "Utilized in projects through online course providers such as Udemy and Coursera",
+      ],
     },
   ];
 
