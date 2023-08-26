@@ -1,14 +1,14 @@
-import DataAnalyticsImage from '../../components/internship/neocortex-img';
-import NeocortexLogo from '../../components/internship/neocortex-logo';
-import classes from './internships.module.css';
+import DataAnalyticsImage from "../../components/internship/neocortex-img";
+import NeocortexLogo from "../../components/internship/neocortex-logo";
+import classes from "./internships.module.css";
 
-function Internships() {     
-    return (
+function Internships() {
+  return (
     <div className={classes.page}>
-        <div className={classes.title}>
-            <h1>Internships</h1>
-        </div>
-        <div className={classes.neocortex}>
+      <div className={classes.title}>
+        <h1>Internships</h1>
+      </div>
+      <div className={classes.neocortex}>
         <div className={classes.text}>
           <NeocortexLogo />
           <br />
@@ -22,21 +22,29 @@ function Internships() {
             </p>
             <br />
             <p>
-              I am a second year Computer Science and Economics combined major
-              at the Khoury College of Computer Sciences with aspirations of
-              becoming a software engineer. I am also a member of the Dean's
-              List and a recipient of the Dean's Scholarship in recognition of
-              high academic achievement.
+              I joined Neocortex as a Data Analyst Intern where I identified
+              actionable isnights for clients through use of advanced analystics
+              on large datasets provided by clients.
             </p>
             <br />
             <p>
-              I have a particular interest in software design as well as modern
-              technology ethics, furthering my knowledge in the classroom
-              through courses such as <em>Algorithms and Data</em>,{" "}
-              <em>Object-Oriented Design</em>, <em>Programming with Data</em>,{" "}
-              <em>Cybersecurity</em>, <em>Information Science</em>,{" "}
-              <em>Technology and Human Values</em>, {""}
-              <em>Macro/Microeconomics</em>, and <em>Econometrics</em>.
+              In this role, I utilized Tableau and developed Python scripts to
+              perform a wide variety of data analyses and manipulation such as
+              Exploratory Data Analysis, feature selection, encoding (One-Hot,
+              Label), imputation (MICE, Simple), over/under sampling (SMOTE,
+              Random Undersampling) as well as optimal thresholding for
+              imbalanced binary classification, sample weighting, and tensor
+              reshaping.
+            </p>
+            <br />
+            <p>
+              In addition to the data analysis and manipulation, I also
+              constructed ensemble machine learning models (Random Forest
+              Classifier, Linear Regression, Logistic Regression, Extreme
+              Gradient Boosting, Long Short-Term Memory), investigated the
+              models’ explainability/feature importance (Permutation, SHAP,
+              LIME), and evaluated the models’ performance by interpreting
+              classification reports (precision, recall, f1-score, support).
             </p>
           </div>
         </div>
@@ -44,7 +52,8 @@ function Internships() {
           <DataAnalyticsImage />
         </div>
       </div>
-    </div>);
+    </div>
+  );
 }
 
 export default Internships;
