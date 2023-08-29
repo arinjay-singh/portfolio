@@ -8,8 +8,11 @@ const nextConfig = {
     },
   ],
   reactStrictMode: true,
-  basePath: "/public",
-}
+  images: {
+    loader: "akamai",
+    path: "",
+  },
+  assetPrefix: "./",
+};
 
-
-module.exports = nextConfig
+export default nextConfig;
