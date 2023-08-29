@@ -49,7 +49,12 @@ function NavigationBar() {
   return (
     <header className={classes.header}>
       <Link href="/">
-        <PersonalLogo />
+        <img
+          src="/images/personal-logo/arinjay-logo.svg"
+          alt="Arinjay Singh Logo"
+          width={195}
+          height={78}
+        />
       </Link>
       <nav>
         <ul>
