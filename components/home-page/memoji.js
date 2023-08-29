@@ -7,6 +7,7 @@ function Memoji() {
       alt="Arinjay Singh Memoji"
       width={300}
       height={300}
+      priority={true}
     />
   );
 }
