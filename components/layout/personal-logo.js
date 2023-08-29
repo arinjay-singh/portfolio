@@ -7,6 +7,7 @@ function PersonalLogo() {
       alt="Arinjay Singh Logo"
       width={195}
       height={78}
+      key="personal-logo"
     />
   );
 }
