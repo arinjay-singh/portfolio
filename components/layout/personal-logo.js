@@ -3,7 +3,7 @@ import Image from "next/image";
 function PersonalLogo() {
   return (
     <Image
-      src="./portfolio/images/personal-logo/arinjay-logo.svg"
+      src="images/memoji/arinjay.svg"
       alt="Arinjay Singh Logo"
       width={195}
       height={78}
