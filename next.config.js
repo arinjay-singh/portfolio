@@ -8,6 +8,7 @@ const nextConfig = {
     },
   ],
   reactStrictMode: true,
+  basePath: "/public",
 }
 
 
