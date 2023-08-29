@@ -15,8 +15,9 @@ export default function Home() {
             <h3>
               {" "}
               I'm a Computer Science and Economics student at Northeastern
-              University <br /> pursuing my fascination with software design and
-              the ethics behind <br /> modern technology.{" "}
+               <br /> University pursuing my passion for software design and the
+              ethical <br /> implications of technology as it continues to
+              evolve.{" "}
             </h3>
           </div>
         </div>
