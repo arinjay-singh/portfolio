@@ -9,7 +9,7 @@ function PersonalProjects() {
             "Sodoku solver that uses backtracking to solve any valid sudoku puzzle",
             "Developed using Python",
         ],
-        imageSrc: "images/projects/sudoku.png",
+        imageSrc: "../images/projects/sudoku.png",
     },
     {
         title: "Pong",
@@ -17,7 +17,7 @@ function PersonalProjects() {
             "Pong Arcade Game",
             "Developed using Python",
         ],
-        imageSrc: "images/projects/pong2.jpeg",
+        imageSrc: "../images/projects/pong2.jpeg",
     },
   ];
 
