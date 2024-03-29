@@ -1,5 +1,5 @@
 import Link from "next/link";
-import classes from "/./nav-bar.module.css";
+import classes from "/components/layout/nav-bar.module.css";
 
 function Dropdown(props) {
   const { navitem, items } = props;

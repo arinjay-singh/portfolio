@@ -1,11 +1,11 @@
 import Link from "next/link";
-import PersonalLogo from "/./personal-logo";
-import classes from "/./nav-bar.module.css";
-import GithubLogo from "/./github-logo";
-import LinkedinLogo from "/./linkedin-logo";
-import DropArrrow from "/./drop-arrow";
-import Dropdown from "/./dropdown";
-import UpArrow from "/./up-arrow";
+import PersonalLogo from "/components/layout/personal-logo";
+import classes from "/components/layout/nav-bar.module.css";
+import GithubLogo from "/components/layout/github-logo";
+import LinkedinLogo from "/components/layout/linkedin-logo";
+import DropArrrow from "/components/layout/drop-arrow";
+import Dropdown from "/components/layout/dropdown";
+import UpArrow from "/components/layout/up-arrow";
 import { useState, useEffect } from "react";
 
 function NavigationBar() {
